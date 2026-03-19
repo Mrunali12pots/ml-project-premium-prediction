@@ -18,3 +18,42 @@ The project uses pre-trained models (`model_young` and `model_rest`) and scalers
 ---
 
 ## Project Structure
+ml-project-premium-prediction/
+│
+├── artifacts/ # Saved ML models and scalers
+│ ├── model_young.joblib
+│ ├── model_rest.joblib
+│ ├── scaler_young.joblib
+│ └── scaler_rest.joblib
+├── src/ # ML code
+│ ├── prediction_helper.py # Preprocessing and prediction logic
+│ └── train_model.py # Optional: script to train models
+├── app.py # Streamlit app
+├── data/ # Optional datasets for training
+├── requirements.txt # Python dependencies
+└── README.md
+
+
+
+## 🚀 Live Demo
+
+👉 **Try the app here:**  
+https://ml-project-premium-prediction-mb.streamlit.app/
+
+---
+
+## Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/mbarapatre/ml-project-premium-prediction.git
+cd "C:\Users\mbarapatre\ml-project-premium-prediction"
+
+Create a virtual environment
+
+python -m venv venv
+venv\Scripts\activate
+
+Install dependencies
+
+pip install -r requirements.txt
