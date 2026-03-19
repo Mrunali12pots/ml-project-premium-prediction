@@ -64,6 +64,7 @@ Use the interface
 Enter your personal and health information in the input fields
 Click the Predict button to see the estimated insurance cost
 
+---
 ## How It Works
 Input Handling
 Inputs from the Streamlit form are collected as a dictionary
@@ -80,3 +81,21 @@ Two separate models are used:
 model_young → for age ≤ 25
 model_rest → for age > 25
 The predict function returns the predicted insurance cost
+
+---
+Example Input Fields
+
+| Feature              | Example Value            |
+| -------------------- | ------------------------ |
+| Age                  | 28                       |
+| Number of Dependants | 2                        |
+| Income in Lakhs      | 12                       |
+| Genetical Risk       | 1                        |
+| Gender               | Male                     |
+| Marital Status       | Unmarried                |
+| BMI Category         | Normal                   |
+| Smoking Status       | No Smoking               |
+| Employment Status    | Salaried                 |
+| Region               | Southeast                |
+| Medical History      | Diabetes & Heart disease |
+| Insurance Plan       | Gold                     |
