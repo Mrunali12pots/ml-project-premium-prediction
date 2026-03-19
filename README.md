@@ -99,3 +99,11 @@ Example Input Fields
 | Region               | Southeast                |
 | Medical History      | Diabetes & Heart disease |
 | Insurance Plan       | Gold                     |
+
+
+Requirements
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
